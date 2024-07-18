@@ -106,6 +106,9 @@ if [[ "$installdep" =~ ^[Yy]$ ]]; then
     echo -e "${BOLD}${DARK_YELLOW}Install allocmd...${RESET}"
     execute_with_prompt 'pip install allocmd --upgrade'
     echo
+
+    echo 'export PATH="$PATH:$HOME/.local/bin"' >> .bash_profile
+    source ~/.bash_profile
 fi
 
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Continuce Installing worker node...${RESET}"
