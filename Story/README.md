@@ -17,7 +17,8 @@ story validator create --stake 1000000000000000000 --private-key "<private_key>"
 
 
 # Submit to dev-chat channel
-
+You can submit with this template:
+```
 Dear Tim, 
 My validator created successfully
 
@@ -28,4 +29,4 @@ Transaction hash: 0x6681227eabdcfa3ed09cb1f9cc7379ea4afc756db4dccabb2416634f58b7
 Explorer URL: https://testnet.storyscan.xyz/tx/0x6681227eabdcfa3ed09cb1f9cc7379ea4afc756db4dccabb2416634f58b7ea71
 
 Thank you, sir
-
+```
