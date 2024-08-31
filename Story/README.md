@@ -11,10 +11,15 @@ wget https://raw.githubusercontent.com/batuoc263/T4E-Nodes/main/Story/snapshot.s
 ```
 
 # Create Validator
+- Export evm-key
+```
 story validator export --export-evm-key
 cat /root/.story/story/config/private_key.txt
+```
+- Create validator
+```
 story validator create --stake 1000000000000000000 --private-key "<private_key>"
-
+```
 
 # Submit to dev-chat channel
 You can submit with this template:
